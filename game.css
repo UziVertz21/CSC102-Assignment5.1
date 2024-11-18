@@ -1,0 +1,15 @@
+button
+{
+    background-color: blue;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50px;
+    width: 500px;
+    height: 100px;
+}
+
+p /*11-17-24 increased font size for user */
+{
+    font-size: larger;
+    font: bold;
+}

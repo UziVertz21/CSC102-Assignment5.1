@@ -1,0 +1,82 @@
+<!--George Seals-Ramos
+    11/5/2024
+    Assignment 3.1 & 3.2-->
+<!-- George Seals-Ramos
+    11-10-2024
+    Assignment 4.2-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings/Audio</title> <!--11-17-24 updated title-->
+    <script src = "strings and audio.js"></script> <!-- 11-10-2024 updated Link source for Javascript--> 
+    <link rel = "stylesheet" href = "strings and audio.css"/> <!-- 11-10-2024 updated Link to css file-->
+</head>
+<body>
+    <h1> Welcome to the PALINDROME CHECKER! </h1> <!--Title for users-->
+    <h2> Navigation </h2> <!-- Menu for the table page-->
+    <nav>
+        <h3> <!--Listed in alphabetical order with the Home at the bottom-->
+            <a href = "boards.html"> Go to Boards Page </a>
+            <br>
+            <br>
+            <a href = "game.html"> Go to Game Page</a>
+            <br>
+            <br>
+            <a href = "index.html"> Go to Index Page </a>
+            <br>
+            <br>
+            <a href = "Table.html"> Go to Table Page </a>
+            <br>
+            <br>
+            <a href = "Landing Page.html"> Return to Home Page </a>
+        </h3>
+    </nav>
+    <audio controls>
+        <source src="rain_Audio.mp3"> <!-- 1st Audio method for html-->
+    </audio>
+    <button onclick = "play();">Play</button> <!--PLAY button for the 2nd audio method-->
+    <button onclick = "stop();">Stop</button> <!--STOP button for the 2nd audio method-->
+    
+    <p>Palindromes are words that are spelled <br> <!--Description for users who don't know what a palindrome is-->
+     the same forward or backward, for example, "radar" or "taco cat".</p>
+     <br>
+     <br>
+        <!-- Form for palindrome -->
+     <form id = "strUpdate" onsubmit="return false">
+        String 1: <input type = "text" id = "firstStr"/>
+    
+        <input type = "submit" onclick = "strings();"/>
+    </form>
+    
+    <p1 id = "checker"> Is it a Palindrome??</p1> <!--Checker for the palindrome-->
+    <br>
+    <br>
+    <p2>--> Spelling Check <--</p2> <!--Spelling tables forward and backwards for user-->
+    <br>
+    <p3 id = "spellCheck1"> Forwards </p3>
+    <br>
+    <p4 id = "spellCheck2"> Backwards </p4>
+    <br>
+        <!-- Form for name and zip code input-->
+    <form id = "formUpdate" onsubmit="return false">
+        User's Name: <input type = "text" id = "nameString"/>
+        <br>
+        Last Name: <input type = "text" id = "nameString2"/>
+        <input type = "submit" onclick = "validate()"/>
+    </form>
+        <br>
+    <form id = "formUpdate2" onsubmit="return false">
+        Secret Message: <input type = "number" id = "numberString"/>
+        <input type = "submit" onclick = "validate2()"/>
+    </form>
+        <!-- Verification the 2nd forms credentials work-->
+    <p5 id = "formStatus"> Status of the input values </p5>
+    <br>
+    <p6 id = "formStatus2"> </p6>
+    <br>
+    <image id = "finalImage"/>
+    
+</body>
+</html>

@@ -1,0 +1,44 @@
+/* 
+George Seals-Ramos
+10-24-2024
+*/
+
+body{
+    background-image: linear-gradient(red,black); /* 11-17-2024 changed into linear gradient*/
+    color: whitesmoke; /* changed font color */
+    cursor: grab; /* 2/3 customizations */
+}
+
+nav{
+    height: 600px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+footer{
+    text-align: left;
+    margin-right: 200px;
+}
+
+#memeImage{
+   border-image-repeat: round;
+} 
+
+h1{
+    text-align: center;
+    text-size-adjust: 20px;
+}
+button{
+    background-color: rgb(255, 0, 170);
+    width: 100px;
+    height: 75px;
+    background-color: aqua;
+    border-radius: 25px;
+}  
+/* 3/3 customizations*/
+p{
+    text-align: center;
+    font-size: larger; /*11-17-24 Increased font size*/
+}

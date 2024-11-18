@@ -1,0 +1,36 @@
+table 
+{ width: 75%; /* Adjusts the width of the table */ 
+    height: 100px; /* Adjusts the height of the table */ 
+    border-collapse: collapse;
+    } 
+    
+th, td 
+{ border: 5px solid chartreuse; 
+    padding: 10px; 
+    text-align: center;}
+
+    p { text-align:center;
+     align-items:  center; }
+
+html 
+{
+    background-color:darkgreen
+}
+/* Color pattern matches the logo and app */
+p 
+{
+    text-decoration: underline;
+    text-align: center;
+    color: chartreuse;
+}
+
+h1
+{
+    color: blue;
+}
+
+h2
+{
+    color: blue;
+}
+

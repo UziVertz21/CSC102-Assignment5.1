@@ -1,0 +1,83 @@
+h1
+{
+    text-align: center;
+    text-decoration: underline;
+    color: yellow;
+    box-shadow: rgb(237, 60, 237) 10px 10px 10px 10px; /* 11-10-2024 added box shadow to the header*/
+} /*Customization to header*/
+
+h3
+{
+    color: black;
+}
+
+p
+{
+    text-transform:lowercase;
+    text-align: center;
+    color: coral;
+    font-size: larger; /*11-17-24 made font size larger*/
+} /*Customization to <p>*/
+
+body
+{
+    background-image: linear-gradient(rgb(58, 58, 230), silver); /* 11-10-2024 changed into linear gradient*/
+} /*background color for html file*/ /*11-17-24 changed color for background image*/
+
+form
+{
+    text-align: center;
+    color: aqua;
+} /*Customization to the form and string text*/
+
+    /*Customization to the other paragraghs*/ /*11-17-24 increased font size*/
+p1
+{
+    color: chartreuse;
+    font-size: larger;
+}
+
+p2
+{
+    color:chartreuse;
+    font-size: larger;
+}
+
+p3
+{
+    color: chartreuse;
+    font-size: larger;
+}
+
+p4
+{
+    color:chartreuse;
+    font-size: larger;
+}
+
+/*color for the 2nd form 11-5-24*/
+P5
+{
+    color: hotpink;
+    font-size: larger;
+}
+
+p6
+{
+    color: hotpink;
+    font-size: larger;
+}
+/*George Seals-Ramos
+    11-10-2024
+    Assignment 4.2*/
+button
+{
+    float: right;
+    color: rgb(45, 40, 40);
+    font-size: 30px;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 5px solid black;
+    background-image: linear-gradient(lightblue, white);
+    
+} /* Customization of buttons*/

@@ -1,0 +1,22 @@
+h1
+{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+
+html 
+{
+    background-image: url("shrug.png");
+    background-size: cover; /* This ensures the image covers the entire background */ 
+    background-repeat: no-repeat; /* This prevents the image from repeating */ 
+    background-attachment: fixed; /* This makes the background image fixed when scrolling */
+    background-position: center;
+}
+
+footer 
+{
+    color: blue;
+    font-size: larger;
+    
+}
